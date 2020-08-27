@@ -1,0 +1,98 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    box-sizing: border-box;
+
+}
+img {
+    width: 50%;
+}
+body {
+    background: radial-gradient(100% 197.65% at 100% 100%, #D7F7C5 0%, #82DDC4 12.08%, #028BB2 51.35%, #1E2E88 100%);
+    font-family: 'Montseratt', sans-serif;
+}
+/* Wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 5rem;
+}
+/* Wrapper Items */
+#left {
+    flex: 2;
+}
+#right {
+    flex: 1;
+    background: #F9F9F9;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+/* Left Items */
+#left img {
+    margin-left: 4rem;
+}
+/* Right Items */
+.spacer {
+    margin: 2rem;
+}
+h1#title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 49px;
+    color: #000000;
+}
+/* Right items> Form */
+form {
+    margin: 1rem 0.4rem;
+}
+label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 20px;
+}
+input[type=text] {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    opacity: 0.9;
+    background: transparent;
+    border-bottom: 1px solid #959595;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    outline: none;
+}
+form div#button {
+    position: relative;
+}
+input[type=button] {
+    position: absolute;
+    left: 10%;
+    background: linear-gradient(93.32deg, #FF796A 0%, #F87768 100%);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 80%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
