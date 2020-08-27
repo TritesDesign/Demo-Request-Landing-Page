@@ -64,7 +64,7 @@ label {
     color: #000000;
     margin-top: 20px;
 }
-input[type=text] {
+input[type=text],input[type=number], input[type=email] {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
